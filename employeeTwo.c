@@ -30,7 +30,7 @@ static int compareEmployeePhone(const void *targetPtr, PtrToConstEmployee tableV
     return strcmp((char*)targetPtr, tableValuePtr->phone);
 }
 
-PtrToEmployee searchEmployeeNumber(PtrToConstEmployee ptr, int size, long number)
+PtrToEmployee searchEmployeeByNumber(PtrToConstEmployee ptr, int size, long number)
 {
     return searchEmployeeTable(ptr, size, &number, compareEmployeeNumber);
 }
