@@ -9,4 +9,4 @@ typedef struct
     double salary;   
 } Employee, *PtrToEmployee;
 
-typedef const Employee *PrtToConstEmployee;
+typedef const Employee *PtrToConstEmployee;
