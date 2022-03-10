@@ -86,8 +86,8 @@ void printSquare(int square[3][3])
                  used[n]=1;
              }
          }
-         /*//printf("No. of Squares Generated: %d\n", count);
-         printSquare(square);*/
+         printf("No. of Squares Generated: %d\n", count);
+         printSquare(square);
          //breaks loop when square is found
          if(isMagicSquare(square)==1)
          {
